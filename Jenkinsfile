@@ -34,6 +34,13 @@ pipeline {
                sh 'mvn verify'
            }
        }
+       stage('Performance Tests') {
+           steps {
+               echo "Running Performance Tests"
+               sh 'mvn verify'
+           }
+       }
+
         
         stage('Docker Build') {
             steps {
