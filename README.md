@@ -1,3 +1,3 @@
 # Opsera-maven-build
 opsera
-test
+OPL test
